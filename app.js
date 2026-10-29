@@ -58,8 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const filter = btn.getAttribute('data-filter');
 
       cakeCards.forEach(card => {
-        const category = card.getAttribute('data-category');
-        if (filter === 'all' || category === filter) {
+        const categories = (card.getAttribute('data-category') || '').split(/\s+/);
+        if (filter === 'all' || categories.includes(filter)) {
           card.style.display = 'flex';
         } else {
           card.style.display = 'none';
