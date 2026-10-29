@@ -86,8 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (message) text += `*Message / Requirements:* ${encodeURIComponent(message)}%0A`;
       text += `%0APlease let me know the price and confirmation. Thank you!`;
 
-      // Official WhatsApp Number: 070 707 0021 -> International: 94707070021
-      window.open(`https://wa.me/94707070021?text=${text}`, '_blank');
+      // Official WhatsApp Number: 075 437 5356 -> International: 94754375356
+      window.open(`https://wa.me/94754375356?text=${text}`, '_blank');
     });
   }
 
