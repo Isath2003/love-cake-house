@@ -84,26 +84,27 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
+  height: 84px;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
 }
 
 .brand-icon-wrapper {
-  width: 44px;
-  height: 44px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   background: #FFF;
-  border: 1.5px solid var(--primary);
+  border: 2px solid #FFFFFF;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 6px rgba(224, 51, 104, 0.15);
+  flex-shrink: 0;
+  box-shadow: 0 3px 10px rgba(190, 20, 55, 0.24);
 }
 
 .brand-icon-wrapper img {
@@ -119,7 +120,7 @@ a {
 
 .brand-title {
   font-family: var(--font-script);
-  font-size: 1.75rem;
+  font-size: 1.9rem;
   font-weight: 700;
   color: #4A1D28;
   line-height: 1.1;
@@ -1188,10 +1189,11 @@ a {
 }
 
 .wa-avatar {
-  width: 34px;
-  height: 34px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   object-fit: cover;
+  background: #ffffff;
   border: 1.5px solid #ffffff;
 }
 
@@ -1350,7 +1352,7 @@ a {
   .main-nav {
     display: none;
     position: absolute;
-    top: 72px;
+    top: 100%;
     left: 0;
     right: 0;
     background-color: var(--header-bg);
@@ -1435,7 +1437,7 @@ a {
   }
 
   .brand-title {
-    font-size: 1.35rem;
+    font-size: 1.45rem;
   }
 
   .brand-subtitle {
@@ -1443,8 +1445,8 @@ a {
   }
 
   .brand-icon-wrapper {
-    width: 38px;
-    height: 38px;
+    width: 52px;
+    height: 52px;
     flex-shrink: 0;
   }
 
